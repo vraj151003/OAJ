@@ -1,0 +1,10 @@
+.form-container {
+    margin: 120px 0 80px 0; /* More spacing on top (120px) and the existing 80px below */
+}
+
+.form-item {
+    margin-bottom: 16px; /* Spacing between form items */
+}
+
+
+  

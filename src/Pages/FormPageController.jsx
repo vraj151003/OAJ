@@ -81,7 +81,8 @@ const FormPageController = ({ callBack }) => {
             console.log("console", paymentData);
             await createStudentPayment(paymentData);
             setLoading(false);
-            navigate("/success");
+            // navigate("/success");
+            navigate("/success", { state: { paymentId: response.razorpay_payment_id } });
           } catch (err) {
             setLoading(false);
             setFormData({
